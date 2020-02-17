@@ -3,8 +3,14 @@
     <head>
         <title>recoreru</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet">
         <link href="css/site3.css" rel="stylesheet">
+        <link rel="stylesheet" href="animate.css">
+        <script src="wow.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css" media="all" >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
     </head>
     <body>
         <div id="zentai">
@@ -42,24 +48,51 @@
                         </ul>
                     </div>
                 </header>
+                <header id="header-sp">
+                    <h1 class="header-logo">
+                        <a href="#">
+                            <img src="img/logo.svg" alt="recoreru">
+                        </a>
+                    </h1>
+                    <div class="navToggle">
+                        <span></span><span></span><span></span>
+                    </div>
+                    
+                </header>
                 <main>
                     <div class="top">
                         <div class="top-title">
                             <div>
-                                <img  class="recoreru-image"src="recoreru.svg"alt="recoreru">
+                                <img  class="recoreru-image  wow fadeInLeft"src="recoreru.svg"alt="recoreru">
                             </div>
-                            <img  class="title-img" src="title.png"alt="カエレル・レコレル">
-                            <p>カスタマイズ可能なクラウド勤怠管理「レコレル」</p>
-                            <a class="apply-botton" href="#">
+                            <img  class="title-img wow fadeInLeft" src="title.png"alt="カエレル・レコレル">
+                            <p class="wow fadeInLeft">カスタマイズ可能なクラウド勤怠管理「レコレル」</p>
+                            <a class="apply-botton wow fadeInRight" href="#">
                                 <img class="apply-img" src="apply.png"alt="今すぐ申し込む">
                                 <p>今すぐ申し込む</p>
                             </a>
                         </div>
                         <div class="scroll">SCROLL</div>
                     </div>
+                    <div class="top-sp">
+                        <div class="top-img">
+                        </div>
+                        <div class="top-title-sp">
+                            <div>
+                                <img  class="recoreru-image  wow fadeInLeft"src="recoreru.svg"alt="recoreru">
+                            </div>
+                            <img  class="title-img wow fadeInLeft" src="title.png"alt="カエレル・レコレル">
+                            <p class="wow fadeInLeft">カスタマイズ可能な<br>クラウド勤怠管理「レコレル」</p>
+                            <a class="apply-botton wow fadeInRight" href="#">
+                                <img class="apply-img" src="apply.png"alt="今すぐ申し込む">
+                                <p>今すぐ申し込む</p>
+                            </a>
+                        </div>
+                        <div class="scroll-sp">SCROLL</div>
+                    </div>
                     <section class="news">
-                        <div class="secpad news-secpad">
-                            <div class=" title news-title">
+                        <div class="secpad news-secpad ">
+                            <div class=" title news-title wow fadeInLeft">
                                 <h2> <span>NEWS<br></span>お知らせ</h2>
                             </div>
                             <ul class="news-list">
@@ -83,16 +116,45 @@
                                 </li>
                             </ul>
                         </div>
-                        <img class="bg-image" src="bg_recoreru.svg"alt="RECORERU">
-                        <img class="about-image" src="about_img.png"alt="スマートフォン">
+                        <img class="bg-image wow fadeInLeft" src="bg_recoreru.svg"alt="RECORERU">
+                        <img class="about-image wow slideInRight" src="about_img.png"alt="スマートフォン">
                     </section>
-                    <section class="about">
+                    <section class="news-sp">
+                        <div class="secpad news-secpad-sp ">
+                            <div class=" title news-title wow fadeInLeft">
+                                <h2> <span>NEWS<br></span>お知らせ</h2>
+                            </div>
+                            <ul class="news-list">
+                                <li>
+                                    <a href="#">
+                                        <time>2019.10.17</time>
+                                        <p>アップデートのお知らせ</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <time>2019.09.25</time>
+                                        <p>消費税法改正に伴うご請求金額変更についてのお知らせ</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <time>2019.08.07</time>
+                                        <p>アップデートのお知らせ</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="bg-image wow fadeInLeft" src="bg_recoreru.svg"alt="RECORERU">
+                        <img class="about-image wow slideInRight" src="about_img.png"alt="スマートフォン">
+                    </section>
+                    <section class="about ">
                         <div class="secpad">
-                            <div class="title about-title">
+                            <div class="title about-title wow fadeInLeft">
                                 <h2><span>ABOUT<br></span>レコレルでできること</h2>
                             </div>
                             <section class="dakoku">
-                                <img src="img/about_01.png"alt="打刻機能">
+                                <img src="img/about_01.png"alt="打刻機能" class="wow fadeIn">
                                 <div class="about-wrapper">
                                     <h3>打刻機能</h3>
                                     <ul>
@@ -100,10 +162,10 @@
                                         <li>外出先（スマートフォン）からの直行・直帰の打刻</li>
                                     </ul>
                                 </div>
-                                <div class="number">1</div>
+                                <div class="number wow slideInRight">1</div>
                             </section>
                             <section class="kintai">
-                                <div class="number">2</div>
+                                <div class="number wow slideInLeft">2</div>
                                 <div class="about-wrapper"> 
                                     <h3>勤怠管理</h3>
                                     <ul>
@@ -112,10 +174,10 @@
                                         <li>勤怠データの出力（印刷/PDF/CSV）</li>
                                     </ul>
                                 </div>    
-                                <img src="img/about_02.png"alt="勤怠管理">
+                                <img src="img/about_02.png"alt="勤怠管理"  class="wow fadeIn">
                             </section>
                             <section class="shift">
-                                <img src="img/about_03.png"alt="シフト管理">
+                                <img src="img/about_03.png"alt="シフト管理"  class="wow fadeIn">
                                 <div class="about-wrapper">
                                     <h3>シフト管理</h3>
                                     <ul>
@@ -124,11 +186,11 @@
                                         <li>シフト表の出力（印刷/PDF)</li>
                                     </ul>
                                 </div>
-                                <div class="number">3</div>
+                                <div class="number wow slideInRight">3</div>
                                 
                             </section>
                             <section class="salary">
-                                <div class="number">4</div>
+                                <div class="number wow slideInLeft">4</div>
                                 <div class="about-wrapper">
                                     <h3>給与計算</h3>
                                     <ul>
@@ -136,10 +198,10 @@
                                         <li>給与データの出力（印刷/PDF/CSV）</li>
                                     </ul>
                                 </div>
-                                <img src="img/about_04.png"alt="給与計算">
+                                <img src="img/about_04.png"alt="給与計算"  class="wow fadeIn">
                             </section>
                             <section class="uq">
-                                <img src="img/about_05.png"alt="有給申請管理">
+                                <img src="img/about_05.png"alt="有給申請管理"  class="wow fadeIn">
                                 <div class="about-wrapper">
                                     <h3>有給申請管理</h3>
                                     <ul>
@@ -147,7 +209,7 @@
                                         <li>有給取得義務化に対応</li>
                                     </ul>
                                 </div>
-                                <div class="number">5</div>
+                                <div class="number wow slideInRight">5</div>
                                 
                             </section>
                         </div>    
@@ -156,8 +218,8 @@
                         <div class="customize-secpad secpad">
                             <div class="customize-content">
                                 <div class="custmoize-title-area">
-                                    <div class="title customize-title">
-                                        <h2><span>COSTOMIZE<br></span>カスタマイズでオリジナルソフトに！</h2>
+                                    <div class="title customize-title wow fadeInLeft">
+                                        <h2><span>COSTOMIZE<br></span>カスタマイズで<br class="sp-br">オリジナルソフトに！</h2>
                                     </div>
                                     <p class="lead">「こんな機能があればもっと使いやすいのに」<br>
                                         レコレルはお客様ごとにカスタマイズ対応が可能！ 可能な限りご要望にお応え致します。
@@ -183,12 +245,12 @@
                                     </ul>
                                 </section>
                             </div>
-                            <img src="img/customize_img.png"alt="スマートフォン">
+                            <img src="img/customize_img.png"alt="スマートフォン" class="wow fadeInUp">
                         </div>
                     </section>
                     <section class="feature">
                         <div class="feature-secpad secpad">
-                            <div class="title feature-title">
+                            <div class="title feature-title wow fadeInLeft">
                                 <h2><span>FEATURE<br></span>働き方改革関連法に<br>完全対応！</h2>
                             </div>
                             <ul>
@@ -205,7 +267,7 @@
                     </section>
                     <section class="plan">
                             <div class="plan-secpad secpad">
-                                <div class="title plan-title">
+                                <div class="title plan-title wow fadeInLeft">
                                     
                                     <h2><span>PLAN<br></span>料金プラン</h2>
                                 </div>
@@ -246,7 +308,7 @@
                     </section>
                     <section class="qanda">
                             <div class="secpad">
-                                <div class="title qanda-title">
+                                <div class="title qanda-title wow fadeInLeft">
                                     <h2><span>Q&A<br></span>よくあるご質問</h2>
                                 </div>
                                 <div class="qanda-content">
@@ -258,14 +320,14 @@
                                             </dt>
                                             <dd>
                                                 <ul>
-                                                    <li><a href="">動作環境について</a></li>
-                                                    <li><a href="">管理ページへのアクセスについて、制限はありますか？</a></li>
-                                                    <li><a href="">iPadのレンタルは可能ですか？</a></li>
-                                                    <li><a href="">解約について、契約期間はどうなってますか？</a></li>
-                                                    <li><a href="">料金プランについて、ユーザー数の上限に達したらどうなりますか？</a></li>
-                                                    <li><a href="">500人以上従業員がいますが、サービスを利用することはできますか？</a></li>
-                                                    <li><a href="">データの保存期間はありますか？</a></li>
-                                                    <li><a href="">解約したいのですが、どうすればよいですか？</a></li>
+                                                    <li>動作環境について</li>
+                                                    <li>管理ページへのアクセスについて、制限はありますか？</li>
+                                                    <li>iPadのレンタルは可能ですか？</li>
+                                                    <li>解約について、契約期間はどうなってますか？</li>
+                                                    <li>料金プランについて、ユーザー数の上限に達したらどうなりますか？</li>
+                                                    <li>500人以上従業員がいますが、サービスを利用することはできますか？</li>
+                                                    <li>データの保存期間はありますか？</li>
+                                                    <li>解約したいのですが、どうすればよいですか？</li>
                                                 </ul>
                                             </dd>
                                             <dt>
@@ -274,10 +336,10 @@
                                             </dt>
                                             <dd>
                                                 <ul>
-                                                    <li><a href="">設定</a></li>
-                                                    <li><a href="">打刻</a></li>
-                                                    <li><a href="">勤怠</a></li>
-                                                    <li><a href="">給与</a></li>
+                                                    <li>設定</li>
+                                                    <li>打刻</li>
+                                                    <li>勤怠</li>
+                                                    <li>給与</li>
                                                 </ul>
                                             </dd>
                                             <dt>
@@ -286,8 +348,8 @@
                                             </dt>
                                             <dd>
                                                 <ul>
-                                                    <li><a href="">初期費用はかかりますか？</a></li>
-                                                    <li><a href="">支払い方法はどのようになっていますか？</a></li>
+                                                    <li>初期費用はかかりますか？</li>
+                                                    <li>支払い方法はどのようになっていますか？</li>
                                                 </ul>
                                             </dd>
                                             <dt>
@@ -296,11 +358,11 @@
                                             </dt>
                                             <dd>
                                                 <ul>
-                                                    <li><a href="">PCはWindowsのみ対応ですか？</a></li>
-                                                    <li><a href="">導入について、インストール作業は発生しますか？</a></li>
-                                                    <li><a href="">申し込みから利用までどのくらいの期間が必要ですか？</a></li>
-                                                    <li><a href="">申し込みについて、契約が必要ですか？</a></li>
-                                                    <li><a href="">サービスを利用するにあたり、必要なものは何ですか？</a></li>
+                                                    <li>PCはWindowsのみ対応ですか？</li>
+                                                    <li>導入について、インストール作業は発生しますか？</li>
+                                                    <li>申し込みから利用までどのくらいの期間が必要ですか？</li>
+                                                    <li>申し込みについて、契約が必要ですか？</li>
+                                                    <li>サービスを利用するにあたり、必要なものは何ですか？</li>
                                                 </ul>
                                             </dd>
                                             <dt>
@@ -309,9 +371,9 @@
                                             </dt>
                                             <dd>
                                                 <ul>
-                                                    <li><a href="">利用方法がわかりません。サポート体制はどのようになっておりますか？</a></li>
-                                                    <li><a href="">利用マニュアルはありますか？</a></li>
-                                                    <li><a href="">間違ってデータを削除してしまいました。復旧は可能でしょうか？</a></li>
+                                                    <li>利用方法がわかりません。サポート体制はどのようになっておりますか？</li>
+                                                    <li>利用マニュアルはありますか？</li>
+                                                    <li>間違ってデータを削除してしまいました。復旧は可能でしょうか？</li>
                                                 </ul>
                                             </dd>
                                         </dl>
@@ -367,9 +429,11 @@
 			// }
 			if(hoge >= 200){
 				$('header').addClass('hoge');
+                $('header-sp').addClass('hoge');
 			}
 			else{
 				$('header').removeClass('hoge');
+                $('header-sp').removeClass('hoge');
 			}
             var foo = $(window).scrollTop();
                 if(foo <=200){
@@ -386,6 +450,9 @@
             $(this).toggleClass("active");//追加部分
             });
             });
-	</script>
+    </script>
+    <script>
+        new WOW().init();
+    </script>
     </body>
 </html>
